@@ -1,5 +1,6 @@
 The PixelPerfect Studios website is a platform showcasing photography, videography, and post-production services. We make use of HTML, CSS, and JavaScript in this site. The HTML file includes the website’s structure, navigation, sections (Home, About Us, Gallery, Services, Contact Us), and integrated JavaScript functionality for interactive elements and CSS for styling. We make use of HTML, CSS, and JavaScript in this site.
-HTML Setup.
+
+**HTML Setup.**
 1.	The document begins with the <DOCTYPE html> which informs the browser that it’s a HTML5 document. 
 2.	We included the <html lang=”en”> tag to specify that the content is in English.
 3.	In the <head> tags we added:
@@ -26,7 +27,9 @@ v)	In the Contact Us section we used the “id=contact”:
 •	Provides contact options, including email and phone links, and a form for users to provide their contact information for us to get in touch with them when they make an inquiry or book a service.
 •	In the form, we added an app script link that sends the details entered in the form to a google sheet file after submit is clicked. A confirmation message is also sent to give feedback to the user.
 5.	At the bottom of the html document, we have the <footer> tag and the JavaScript link: <script src="Webscript.js">
-CSS Styling.
+
+
+**CSS Styling.**
 For styles we have:
 1.	General Styles: This are the styles to be applied though the entire document.
 •	*: This is the universal selector that removes the default margins and padding from all elements, ensuring a consistent base style.
@@ -83,7 +86,7 @@ For styles we have:
 #gotop: Creates a "back to top" button with a fixed position and hover effects.
 We labelled each CSS section making it easy to locate and understand the styles for specific components. This will also make it easier to troubleshoot, update, or expand the CSS file.
 
-JavaScript functions
+**JavaScript functions**
 Here we explain the JavaScript codes that we used for the document.
 1.	Open and Close functions of the Sidebar:
 •	showsidebar() Function: This function opens the sidebar menu. It selects the sidebar element using document.querySelector('.sidebar') and changes its display style property to flex, making it visible on the page.
