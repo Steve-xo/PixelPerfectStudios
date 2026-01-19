@@ -16,7 +16,7 @@ b)	Main navigation links are only visible on larger screens due to the .hideonmo
 •	We then created the five sections: Home, About Us, Gallery, Services, Contacts.
 
 i)	In the Home section we used the “id=home”:
-•	It serves as an introduction to the website. The headings <h1> for the Studio name and <h2> to introduce the studio, and a "Book Now" button directs the user to book for a service.
+•	It serves as an introduction to the website. The headings (h1) for the Studio name and (h2) to introduce the studio, and a "Book Now" button directs the user to book for a service.
 ii)	In the About Us section we used the “id=about”:
 •	Displays information about the studio and what we do with an image (<img class="aboutimg">)
 iii)	In the Gallery section we used the “id=gallery”:
@@ -30,6 +30,7 @@ v)	In the Contact Us section we used the “id=contact”:
 
 
 **CSS Styling.**
+
 For styles we have:
 1.	General Styles: This are the styles to be applied though the entire document.
 •	*: This is the universal selector that removes the default margins and padding from all elements, ensuring a consistent base style.
@@ -86,7 +87,8 @@ For styles we have:
 #gotop: Creates a "back to top" button with a fixed position and hover effects.
 We labelled each CSS section making it easy to locate and understand the styles for specific components. This will also make it easier to troubleshoot, update, or expand the CSS file.
 
-**JavaScript functions**
+**JavaScript functions.**
+
 Here we explain the JavaScript codes that we used for the document.
 1.	Open and Close functions of the Sidebar:
 •	showsidebar() Function: This function opens the sidebar menu. It selects the sidebar element using document.querySelector('.sidebar') and changes its display style property to flex, making it visible on the page.
